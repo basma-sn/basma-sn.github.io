@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio académique de Basma Sounni, linguiste spécialisée en arabe marocain, corpus, phonétique et traitement automatique des langues." />
+  <title>Basma Sounni | Portfolio académique</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#accueil" aria-label="Retour à l'accueil">
+      <span class="brand-mark">BS</span>
+      <span>Basma Sounni</span>
+    </a>
+
+    <button class="menu-button" type="button" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" aria-label="Navigation principale">
+      <a href="#profil">Profil</a>
+      <a href="#recherche">Recherche</a>
+      <a href="#projets">Projets</a>
+      <a href="#competences">Compétences</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-content">
+        <p class="eyebrow">Sciences du langage · Arabe marocain · Corpus · TAL</p>
+        <h1>Basma Sounni</h1>
+        <p class="hero-subtitle">
+          Linguiste en formation, spécialisée dans la constitution et l’analyse de ressources
+          pour l’arabe marocain, l’annotation de corpus et le traitement automatique des langues.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#recherche">Découvrir mes travaux</a>
+          <a class="button secondary" href="assets/cv_BS.pdf" target="_blank" rel="noopener">Consulter mon CV</a>
+        </div>
+      </div>
+
+      <div class="hero-card" aria-label="Domaines de spécialisation">
+        <div class="initials">BS</div>
+        <p>Corpus linguistiques</p>
+        <p>Darija et variation</p>
+        <p>Phonétique et annotation</p>
+        <p>Python et ressources TAL</p>
+      </div>
+    </section>
+
+    <section class="section" id="profil">
+      <div class="section-heading">
+        <p class="eyebrow">À propos</p>
+        <h2>Une approche située entre linguistique descriptive et traitement des données</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="prose">
+          <p>
+            Titulaire d’un Master en linguistique et traduction, puis formée en Master 2 Sciences du langage,
+            parcours Analyse et traitements linguistiques à l’Université d’Orléans, je m’intéresse à la
+            description des usages langagiers, à la variation et à la création de ressources pour les langues
+            peu dotées.
+          </p>
+          <p>
+            Mon travail récent porte sur l’arabe marocain, notamment la constitution d’un corpus oral,
+            l’annotation phonétique, l’élaboration d’un dictionnaire de prononciation et la préparation de
+            données exploitables pour le traitement automatique de la parole.
+          </p>
+        </div>
+
+        <aside class="info-card">
+          <h3>Axes d’intérêt</h3>
+          <ul>
+            <li>Arabe marocain et variation dialectale</li>
+            <li>Phonétique, phonologie et emphase</li>
+            <li>Linguistique de corpus</li>
+            <li>Sociolinguistique et code-switching</li>
+            <li>Traitement automatique des langues</li>
+            <li>Documentation des langues peu dotées</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section tinted" id="recherche">
+      <div class="section-heading">
+        <p class="eyebrow">Recherche actuelle</p>
+        <h2>Ressources phonétiques et lexicales pour l’arabe marocain</h2>
+      </div>
+
+      <div class="research-layout">
+        <div class="research-main">
+          <span class="project-label">Projet CoCLiCo · CNRS–ATILF / Université d’Orléans</span>
+          <h3>Constitution d’un corpus oral et d’un dictionnaire de prononciation</h3>
+          <p>
+            Dans le cadre de mon stage de Master 2, un ensemble de ressources consacrées à la darija a été
+            constitué afin de mieux documenter cette variété et de préparer son exploitation dans des outils
+            de traitement automatique de la parole.
+          </p>
+
+          <div class="method-grid">
+            <article>
+              <span>01</span>
+              <h4>Collecte et corpus</h4>
+              <p>Conception d’un texte de lecture, recrutement de locuteurs, enregistrements et organisation des données.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h4>Annotation phonétique</h4>
+              <p>Segmentation et annotation sous Praat, avec distinction entre niveaux phonémiques et réalisations phonétiques.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h4>Lexique de prononciation</h4>
+              <p>Élaboration d’un dictionnaire comportant des variantes de prononciation et une représentation en X-SAMPA.</p>
+            </article>
+            <article>
+              <span>04</span>
+              <h4>Automatisation</h4>
+              <p>Développement de scripts Python pour le nettoyage, la conversion, l’extraction lexicale et la gestion des variantes.</p>
+            </article>
+          </div>
+        </div>
+
+        <aside class="deliverables">
+          <h3>Productions</h3>
+          <ul>
+            <li>Inventaire phonémique de la darija</li>
+            <li>Corpus oral annoté</li>
+            <li>TextGrids Praat</li>
+            <li>Dictionnaire de prononciation</li>
+            <li>Scripts Python de traitement</li>
+            <li>Réflexion méthodologique sur la variation</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="projets">
+      <div class="section-heading">
+        <p class="eyebrow">Projets sélectionnés</p>
+        <h2>Analyses de corpus, variation et interactions</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card featured">
+          <p class="project-kicker">Mémoire de Master 2</p>
+          <h3>Coloration vocalique et emphase en arabe marocain</h3>
+          <p>
+            Étude acoustique des voyelles produites à proximité de consonnes emphatiques, fondée sur des mesures
+            formantiques et une comparaison de plusieurs points temporels dans la voyelle.
+          </p>
+          <div class="tags"><span>Praat</span><span>Phonétique acoustique</span><span>Darija</span></div>
+        </article>
+
+        <article class="project-card">
+          <p class="project-kicker">Pragmatique et corpus</p>
+          <h3>L’imparfait atténuatif dans ESLO1 et ESLO2</h3>
+          <p>
+            Annotation manuelle et typologie pragmatique des occurrences de « je voulais », avec comparaison
+            diachronique de leurs fonctions atténuatives.
+          </p>
+          <div class="tags"><span>ESLO</span><span>Annotation</span><span>Pragmatique</span></div>
+        </article>
+
+        <article class="project-card">
+          <p class="project-kicker">Variation linguistique</p>
+          <h3>Fonctions et positions de « là » dans le français parlé</h3>
+          <p>
+            Étude des fonctions spatiales, temporelles et discursives de « là » dans des messages vocaux,
+            avec prise en compte de la variation générationnelle.
+          </p>
+          <div class="tags"><span>TXM</span><span>Sociolinguistique</span><span>Corpus oral</span></div>
+        </article>
+
+        <article class="project-card">
+          <p class="project-kicker">Analyse des interactions</p>
+          <h3>Demandes et degrés de formalité à l’épicerie ESOPE</h3>
+          <p>
+            Analyse ethnographique et conversationnelle des formulations de requêtes selon le contexte,
+            le lien social et les dynamiques relationnelles.
+          </p>
+          <div class="tags"><span>SPEAKING</span><span>Interaction</span><span>Ethnographie</span></div>
+        </article>
+
+        <article class="project-card">
+          <p class="project-kicker">XML et structuration</p>
+          <h3>Annotation ciblée du verbe « vouloir »</h3>
+          <p>
+            Constitution d’un sous-corpus, définition d’une grille d’annotation et formulation de requêtes XPath
+            pour l’extraction d’annotations linguistiques.
+          </p>
+          <div class="tags"><span>XML</span><span>XPath</span><span>Corpus</span></div>
+        </article>
+
+        <article class="project-card">
+          <p class="project-kicker">Quantitatif et qualitatif</p>
+          <h3>Liaison facultative après nom pluriel</h3>
+          <p>
+            Comparaison d’ESLO1 et ESLO2 afin d’examiner la stabilité du phénomène et les facteurs syntaxiques
+            qui favorisent ou freinent sa réalisation.
+          </p>
+          <div class="tags"><span>Statistiques</span><span>Variation</span><span>Français oral</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section dark" id="competences">
+      <div class="section-heading">
+        <p class="eyebrow">Compétences</p>
+        <h2>Outils et méthodes mobilisés</h2>
+      </div>
+
+      <div class="skills-grid">
+        <article>
+          <h3>Corpus et annotation</h3>
+          <p>Constitution de corpus, segmentation, transcription, annotation multimodale, contrôle qualité et documentation.</p>
+          <div class="skill-list"><span>Praat</span><span>ELAN</span><span>TXM</span><span>SPPAS</span></div>
+        </article>
+        <article>
+          <h3>Programmation et données</h3>
+          <p>Nettoyage de données, extraction lexicale, scripts de conversion, manipulation de fichiers et automatisation.</p>
+          <div class="skill-list"><span>Python</span><span>pandas</span><span>Regex</span><span>CSV</span></div>
+        </article>
+        <article>
+          <h3>Formats et structuration</h3>
+          <p>Structuration et interrogation de corpus, préparation de ressources lexicales et rédaction scientifique.</p>
+          <div class="skill-list"><span>XML</span><span>XPath</span><span>LaTeX</span><span>GitHub</span></div>
+        </article>
+        <article>
+          <h3>Analyse linguistique</h3>
+          <p>Phonétique, phonologie, morphosyntaxe, pragmatique, sociolinguistique, analyse interactionnelle et variation.</p>
+          <div class="skill-list"><span>API</span><span>X-SAMPA</span><span>Acoustique</span><span>TAL</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="parcours">
+      <div class="section-heading">
+        <p class="eyebrow">Parcours</p>
+        <h2>Formation et expériences</h2>
+      </div>
+
+      <div class="timeline">
+        <article>
+          <div class="timeline-date">2026</div>
+          <div>
+            <h3>Stage de recherche, projet CoCLiCo</h3>
+            <p>CNRS–ATILF et Université d’Orléans</p>
+          </div>
+        </article>
+        <article>
+          <div class="timeline-date">2025–2026</div>
+          <div>
+            <h3>Master 2 Sciences du langage, parcours ATL</h3>
+            <p>Université d’Orléans</p>
+          </div>
+        </article>
+        <article>
+          <div class="timeline-date">2025</div>
+          <div>
+            <h3>Tutrice numérique</h3>
+            <p>Learning Lab, Université d’Orléans</p>
+          </div>
+        </article>
+        <article>
+          <div class="timeline-date">2023–2024</div>
+          <div>
+            <h3>Enseignante de français</h3>
+            <p>Ministère de l’Éducation nationale, Maroc</p>
+          </div>
+        </article>
+        <article>
+          <div class="timeline-date">2021–2023</div>
+          <div>
+            <h3>Master Linguistique et Traduction</h3>
+            <p>Université Hassan II de Mohammedia</p>
+          </div>
+        </article>
+        <article>
+          <div class="timeline-date">2018–2021</div>
+          <div>
+            <h3>Licence en Éducation</h3>
+            <p>Université Hassan II de Mohammedia</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Échanger autour d’un projet de recherche ou d’annotation</h2>
+        <p>
+          Je suis particulièrement intéressée par les missions portant sur la darija, la sociolinguistique,
+          l’annotation de corpus, la traduction et la constitution de ressources linguistiques.
+        </p>
+      </div>
+      <div class="contact-card">
+        <a href="mailto:basmasounni7@gmail.com">basmasounni7@gmail.com</a>
+        <a href="https://www.linkedin.com/in/basma-sounni" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="assets/CV_Basma_Sounni.pdf" target="_blank" rel="noopener">Télécharger le CV</a>
+        <!-- Remplace ce lien lorsque ton profil GitHub sera prêt -->
+        <a href="#" aria-label="Lien GitHub à compléter">GitHub · à compléter</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Basma Sounni · Portfolio académique</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
